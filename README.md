@@ -111,13 +111,11 @@ The model is trained using a robust pipeline::
 
 ### Setup
 
+**Clone rep:**
 ```bash
 # Clone the repository
 git clone https://github.com/sk-o1911a/MNIST_CNN_Handwritting.git
 cd MNIST_CNN_Handwritting
-
-# Install dependencies
-pip install -r requirements.txt
 ```
 
 **Set up a Virtual Environment:**
@@ -131,6 +129,12 @@ python -m venv .venv
 # macOS / Linux
 python3 -m venv .venv
 source .venv/bin/activate
+```
+
+**Install dependencies:**
+```bash
+# Install requirements
+pip install -r requirements.txt
 ```
 
 **Install PyTorch (GPU Specific):**
