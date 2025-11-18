@@ -106,7 +106,7 @@ The model is trained using a robust pipeline::
 
 ### Requirements
 
-- Python 3.8+
+- Python 3.8 to 3.13
 - A CUDA-enabled GPU (NVIDIA) is highly recommended for training.
 
 ### Setup
